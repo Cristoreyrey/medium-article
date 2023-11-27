@@ -1,0 +1,50 @@
+body {
+  background-color: antiquewhite;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.banner {
+  background-image: url('https://www.ignant.com/wp-content/uploads/2017/02/FI_MartinParr.jpg');
+}
+
+
+.container {
+  width: 50 auto;
+  margin: 50 auto;
+  text-align: center;
+  font-size: 15px;
+  color: black
+}
+
+.link{
+  text-decoration: underline;
+  color: black;
+}
+
+.link:hover {
+  color: darkred
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 320px;
+  }
+}
